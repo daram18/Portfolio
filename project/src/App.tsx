@@ -300,8 +300,7 @@ function App() {
             {/* Email Card */}
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 hover:shadow-lg transition-shadow">
               <Mail className="w-12 h-12 mx-auto mb-4" />
-              <a
-                href="mailto:daram.nrs@gmail.com"
+              <a href="mailto: daram.nrs@gmail.com"
                 className="block text-xl font-semibold mb-2 text-white hover:text-blue-200 transition-colors"
               >
                 Send Email
