@@ -10,7 +10,7 @@ function App() {
     { name: 'Technical Support', level: 90, icon: <Settings className="w-5 h-5" /> },
     { name: 'Process Improvement', level: 80, icon: <Briefcase className="w-5 h-5" /> },
     { name: 'Email & Chat Support', level: 95, icon: <MessageSquare className="w-5 h-5" /> },
-    { name: 'Emergency Response', level: 88, icon: <Phone className="w-5 h-5" /> }
+    
   ];
 
   const experiences = [
