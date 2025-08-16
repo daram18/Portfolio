@@ -125,7 +125,7 @@ function App() {
               RPA Specialist | ServiceNow Expert | 13+ Years Experience
             </p>
             <div className="flex justify-center space-x-6">
-              <a href="#" className="text-white hover:text-blue-200 transition-colors">
+              <a href="https://www.linkedin.com/in/naresh-kumar-daram-50814b50/" target="_blank" className="text-white hover:text-blue-200 transition-colors">
                 <Linkedin className="w-8 h-8" />
               </a>
               <a href="#" className="text-white hover:text-blue-200 transition-colors">
@@ -287,6 +287,7 @@ function App() {
       </section>
 
       {/* Contact Section */}
+      {/* Contact Section */}
       <section id="contact" className="py-20 bg-gradient-to-r from-blue-600 to-purple-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -294,26 +295,46 @@ function App() {
             <div className="w-20 h-1 bg-white mx-auto mb-6"></div>
             <p className="text-xl text-blue-100">Ready to take on new challenges and contribute to your team's success</p>
           </div>
+
           <div className="grid md:grid-cols-3 gap-8 text-center">
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8">
+            {/* Email Card */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 hover:shadow-lg transition-shadow">
               <Mail className="w-12 h-12 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Email</h3>
-              <p className="text-blue-100">your.email@example.com</p>
+              <a
+                href="mailto:daram.nrs@gmail.com"
+                className="block text-xl font-semibold mb-2 text-white hover:text-blue-200 transition-colors"
+              >
+                Send Email
+              </a>
+              <p className="text-blue-100">daram.nrs@gmail.com</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8">
+
+            {/* Phone Card */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 hover:shadow-lg transition-shadow">
               <Phone className="w-12 h-12 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Phone</h3>
-              <p className="text-blue-100">+91 XXXXX XXXXX</p>
+              <a
+                href="tel:+919985258692"
+                className="block text-xl font-semibold mb-2 text-white hover:text-blue-200 transition-colors"
+              >
+                Call Me
+              </a>
+              <p className="text-blue-100">+91 9985258692</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8">
-              <Linkedin className="w-12 h-12 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-2">LinkedIn</h3>
-              <p className="text-blue-100">Connect with me</p>
+
+            {/* LinkedIn Card */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 hover:shadow-lg transition-shadow">
+              <a href="https://www.linkedin.com/in/naresh-kumar-daram-50814b50/" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="w-12 h-12 mx-auto mb-4" />
+                <h3 className="text-xl font-semibold mb-2 text-white hover:text-blue-200 transition-colors">LinkedIn</h3>
+                <p className="text-blue-100">Connect with me</p>
+              </a>
             </div>
           </div>
+
+          {/* Social Icons */}
           <div className="text-center mt-12">
             <div className="flex justify-center space-x-6 mb-8">
-              <a href="#" className="text-white hover:text-blue-200 transition-colors p-3 bg-white/10 rounded-full">
+              <a href="https://www.linkedin.com/in/naresh-kumar-daram-50814b50/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-200 transition-colors p-3 bg-white/10 rounded-full">
                 <Linkedin className="w-6 h-6" />
               </a>
               <a href="#" className="text-white hover:text-blue-200 transition-colors p-3 bg-white/10 rounded-full">
@@ -322,13 +343,17 @@ function App() {
               <a href="#" className="text-white hover:text-blue-200 transition-colors p-3 bg-white/10 rounded-full">
                 <Twitter className="w-6 h-6" />
               </a>
-              <a href="#" className="text-white hover:text-blue-200 transition-colors p-3 bg-white/10 rounded-full">
+              <a href="mailto:daram.nrs@gmail.com" className="text-white hover:text-blue-200 transition-colors p-3 bg-white/10 rounded-full">
                 <Mail className="w-6 h-6" />
+              </a>
+              <a href="tel:+919985258692" className="text-white hover:text-blue-200 transition-colors p-3 bg-white/10 rounded-full">
+                <Phone className="w-6 h-6" />
               </a>
             </div>
           </div>
         </div>
       </section>
+
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8">
